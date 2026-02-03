@@ -13,10 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{68cacc2a-430c-4fd3-8ca3-ae065080ff8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{72c19818-8862-4d24-96ee-a584df117695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\recursion">
+      <UniqueIdentifier>{81195209-5ed6-42ad-9a86-a10aeea66ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\Arrays">
+      <UniqueIdentifier>{b8bb96f6-56f2-4c64-a268-9e4e2ce4b138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structures\LinkedList">
+      <UniqueIdentifier>{2dd2d000-c318-46e0-aee1-6e21c2e7a38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Sorting">
+      <UniqueIdentifier>{827d7383-e4db-4c65-9b4b-cec26819660a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Searching">
+      <UniqueIdentifier>{196b99fe-c8a2-4b3b-ba54-f0924a02ca50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{7479e536-c989-4b40-832f-2388be38396e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Data Structures\LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Data Structures\LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Other.h">
+      <Filter>Other</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
